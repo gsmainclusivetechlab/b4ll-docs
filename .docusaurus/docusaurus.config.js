@@ -1,13 +1,13 @@
 export default {
-  "title": "My Site",
-  "tagline": "The tagline of my site",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
+  "title": "b4all-docs",
+  "tagline": "",
+  "url": "https://gsmainclusivetechlab.github.io",
+  "baseUrl": "/b4ll-docs/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "gsmainclusivetechlab",
+  "projectName": "b4ll-docs",
   "themeConfig": {
     "navbar": {
       "title": "My Site",

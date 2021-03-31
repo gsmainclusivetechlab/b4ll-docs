@@ -1,0 +1,30 @@
+{
+  "facebook": {
+    "allTagsPath": "/b4ll-docs/blog/tags",
+    "slug": "facebook",
+    "name": "facebook",
+    "count": 1,
+    "permalink": "/b4ll-docs/blog/tags/facebook"
+  },
+  "hello": {
+    "allTagsPath": "/b4ll-docs/blog/tags",
+    "slug": "hello",
+    "name": "hello",
+    "count": 2,
+    "permalink": "/b4ll-docs/blog/tags/hello"
+  },
+  "docusaurus": {
+    "allTagsPath": "/b4ll-docs/blog/tags",
+    "slug": "docusaurus",
+    "name": "docusaurus",
+    "count": 3,
+    "permalink": "/b4ll-docs/blog/tags/docusaurus"
+  },
+  "hola": {
+    "allTagsPath": "/b4ll-docs/blog/tags",
+    "slug": "hola",
+    "name": "hola",
+    "count": 1,
+    "permalink": "/b4ll-docs/blog/tags/hola"
+  }
+}

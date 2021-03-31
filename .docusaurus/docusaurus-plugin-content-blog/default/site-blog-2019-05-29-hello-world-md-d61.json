@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/hello-world",
+  "permalink": "/b4ll-docs/blog/hello-world",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
   "source": "@site/blog/2019-05-29-hello-world.md",
   "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
@@ -8,11 +8,11 @@
   "tags": [
     {
       "label": "hello",
-      "permalink": "/blog/tags/hello"
+      "permalink": "/b4ll-docs/blog/tags/hello"
     },
     {
       "label": "docusaurus",
-      "permalink": "/blog/tags/docusaurus"
+      "permalink": "/b4ll-docs/blog/tags/docusaurus"
     }
   ],
   "title": "Hello",
@@ -20,10 +20,10 @@
   "truncated": true,
   "prevItem": {
     "title": "Welcome",
-    "permalink": "/blog/welcome"
+    "permalink": "/b4ll-docs/blog/welcome"
   },
   "nextItem": {
     "title": "Hola",
-    "permalink": "/blog/hola"
+    "permalink": "/b4ll-docs/blog/hola"
   }
 }

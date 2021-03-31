@@ -3,15 +3,15 @@
   "items": [
     {
       "title": "Welcome",
-      "permalink": "/blog/welcome"
+      "permalink": "/b4ll-docs/blog/welcome"
     },
     {
       "title": "Hello",
-      "permalink": "/blog/hello-world"
+      "permalink": "/b4ll-docs/blog/hello-world"
     },
     {
       "title": "Hola",
-      "permalink": "/blog/hola"
+      "permalink": "/b4ll-docs/blog/hola"
     }
   ]
 }

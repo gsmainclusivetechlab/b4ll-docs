@@ -24,5 +24,8 @@
   padding: 0 var(--ifm-pre-padding);
 }
 .navbar {
-  background-color: #865ec5;
+  background-color: rgb(104, 49, 118);
+}
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+  /* background-color: #865ec5; */
 }

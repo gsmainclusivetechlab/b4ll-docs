@@ -7,14 +7,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #de002b;
-  --ifm-color-secondary: #99cccc;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #492d69;
+  --ifm-color-primary-dark: #42295e;
+  --ifm-color-primary-darker: #3e2659;
+  --ifm-color-primary-darkest: #33204a;
+  --ifm-color-primary-light: #503274;
+  --ifm-color-primary-lighter: #543479;
+  --ifm-color-primary-lightest: #5f3b88;
   --ifm-code-font-size: 95%;
 }
 
@@ -25,16 +24,48 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+.navbar {
+  background-color: rgb(104, 49, 118);
+}
+.footer--dark {
+  background-color: rgb(104, 49, 118);
+}
+
+.navbar__link {
+  color: #ffffff;
+}
+.navbar__link:hover,
+.navbar__link--active {
+  color: #ffffff;
+}
+.menu__link--active {
+  color: #c041d0;
+}
+.menu__link--active:not(.menu__link--sublist) {
+  background: rgb(129 10 199 / 25%);
+}
+.menu__link:hover {
+  background: rgb(129 10 199 / 14%);
+}
+.menu__link--active:hover {
+  color: #a869f1;
+}
+.table-of-contents__link:hover,
+.table-of-contents__link:hover code,
+.table-of-contents__link--active,
+.table-of-contents__link--active code {
+  color: #a555ff;
+}
 /* Graphviz theming */
 
 .graph > polygon {
   fill: transparent;
 }
-polygon[stroke='#000000'],
-path[stroke='#000000'] {
+polygon[stroke="#000000"],
+path[stroke="#000000"] {
   stroke: currentColor;
 }
-polygon[fill='#000000'] {
+polygon[fill="#000000"] {
   fill: currentColor;
 }
 .graph text {

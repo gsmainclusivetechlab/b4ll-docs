@@ -8,9 +8,9 @@
           "versionPath": "/b4ll-docs/docs",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/eudis/Dev/GSMA/b4ll/b4ll-docs/src/frontend/sidebars.js",
-          "docsDirPath": "/Users/eudis/Dev/GSMA/b4ll/b4ll-docs/docs",
-          "docsDirPathLocalized": "/Users/eudis/Dev/GSMA/b4ll/b4ll-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/fingent/Desktop/WorkSpace/B4 client/b4ll-docs/src/frontend/sidebars.js",
+          "docsDirPath": "/home/fingent/Desktop/WorkSpace/B4 client/b4ll-docs/docs",
+          "docsDirPathLocalized": "/home/fingent/Desktop/WorkSpace/B4 client/b4ll-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "about",
           "sidebars": {
             "someSidebar": [

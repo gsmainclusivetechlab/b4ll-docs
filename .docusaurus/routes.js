@@ -44,47 +44,47 @@ export default [
 },
 {
   path: '/b4ll-docs/blog',
-  component: ComponentCreator('/b4ll-docs/blog','891'),
+  component: ComponentCreator('/b4ll-docs/blog','217'),
   exact: true,
 },
 {
   path: '/b4ll-docs/blog/hello-world',
-  component: ComponentCreator('/b4ll-docs/blog/hello-world','1b4'),
+  component: ComponentCreator('/b4ll-docs/blog/hello-world','faa'),
   exact: true,
 },
 {
   path: '/b4ll-docs/blog/hola',
-  component: ComponentCreator('/b4ll-docs/blog/hola','a5d'),
+  component: ComponentCreator('/b4ll-docs/blog/hola','df1'),
   exact: true,
 },
 {
   path: '/b4ll-docs/blog/tags',
-  component: ComponentCreator('/b4ll-docs/blog/tags','140'),
+  component: ComponentCreator('/b4ll-docs/blog/tags','983'),
   exact: true,
 },
 {
   path: '/b4ll-docs/blog/tags/docusaurus',
-  component: ComponentCreator('/b4ll-docs/blog/tags/docusaurus','e0a'),
+  component: ComponentCreator('/b4ll-docs/blog/tags/docusaurus','f35'),
   exact: true,
 },
 {
   path: '/b4ll-docs/blog/tags/facebook',
-  component: ComponentCreator('/b4ll-docs/blog/tags/facebook','031'),
+  component: ComponentCreator('/b4ll-docs/blog/tags/facebook','23d'),
   exact: true,
 },
 {
   path: '/b4ll-docs/blog/tags/hello',
-  component: ComponentCreator('/b4ll-docs/blog/tags/hello','fe9'),
+  component: ComponentCreator('/b4ll-docs/blog/tags/hello','c85'),
   exact: true,
 },
 {
   path: '/b4ll-docs/blog/tags/hola',
-  component: ComponentCreator('/b4ll-docs/blog/tags/hola','5c8'),
+  component: ComponentCreator('/b4ll-docs/blog/tags/hola','4de'),
   exact: true,
 },
 {
   path: '/b4ll-docs/blog/welcome',
-  component: ComponentCreator('/b4ll-docs/blog/welcome','1eb'),
+  component: ComponentCreator('/b4ll-docs/blog/welcome','cf9'),
   exact: true,
 },
 {

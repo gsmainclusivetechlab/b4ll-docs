@@ -51,17 +51,17 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/eudis/Dev/GSMA/b4ll/b4ll-docs/src/frontend/sidebars.js",
+          "sidebarPath": "/home/fingent/Desktop/WorkSpace/B4 client/b4ll-docs/src/frontend/sidebars.js",
           "routeBasePath": "/docs"
         },
         "theme": {
-          "customCss": "/Users/eudis/Dev/GSMA/b4ll/b4ll-docs/src/frontend/custom.css"
+          "customCss": "/home/fingent/Desktop/WorkSpace/B4 client/b4ll-docs/src/frontend/custom.css"
         }
       }
     ]
   ],
   "plugins": [
-    "/Users/eudis/Dev/GSMA/b4ll/b4ll-docs/src/frontend/webpack.js"
+    "/home/fingent/Desktop/WorkSpace/B4 client/b4ll-docs/src/frontend/webpack.js"
   ],
   "baseUrlIssueBanner": true,
   "i18n": {

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "docguide",
+  "id": "docguide",
+  "isDocsHomePage": false,
+  "title": "Documentation Guide",
+  "description": "The main purpose of this documentation is to guide users and contributors about",
+  "source": "@site/docs/docguide.mdx",
+  "slug": "/docguide",
+  "permalink": "/b4ll-docs/docs/docguide",
+  "version": "current",
+  "sidebar_label": "Documentation Guide",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "The B4LL Project",
+    "permalink": "/b4ll-docs/docs/"
+  },
+  "next": {
+    "title": "B4LL Architecture",
+    "permalink": "/b4ll-docs/docs/architecture/overview"
+  }
+}

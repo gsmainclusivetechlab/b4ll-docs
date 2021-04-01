@@ -1,0 +1,12 @@
+{
+  "unversionedId": "nextsteps",
+  "id": "nextsteps",
+  "isDocsHomePage": false,
+  "title": "Next Project Steps",
+  "description": "O próximo passo de nosso projeto é a criação de uma",
+  "source": "@site/docs/nextsteps.md",
+  "slug": "/nextsteps",
+  "permalink": "/b4ll-docs/docs/nextsteps",
+  "version": "current",
+  "sidebar_label": "Next Project Steps"
+}

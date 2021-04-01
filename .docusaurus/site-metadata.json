@@ -26,6 +26,9 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "2.0.0-alpha.71"
+    },
+    "my-docusaurus-plugin": {
+      "type": "project"
     }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "voice/callcentre",
+  "id": "voice/callcentre",
+  "isDocsHomePage": false,
+  "title": "Call Centre Enrolment",
+  "description": "To demonstrate test the Call Centre showcase register in our database the number",
+  "source": "@site/docs/voice/callcentre.md",
+  "slug": "/voice/callcentre",
+  "permalink": "/b4ll-docs/docs/voice/callcentre",
+  "version": "current",
+  "sidebar_label": "Enrolment",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Alerts",
+    "permalink": "/b4ll-docs/docs/voice/alerts"
+  },
+  "next": {
+    "title": "B4LL Application",
+    "permalink": "/b4ll-docs/docs/app/info"
+  }
+}

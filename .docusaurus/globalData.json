@@ -8,26 +8,108 @@
           "label": "Next",
           "isLast": true,
           "path": "/b4ll-docs/docs",
-          "mainDocId": "doc1",
+          "mainDocId": "about",
           "docs": [
             {
-              "id": "doc1",
+              "id": "about",
               "path": "/b4ll-docs/docs/",
               "sidebar": "someSidebar"
             },
             {
-              "id": "doc2",
-              "path": "/b4ll-docs/docs/doc2",
+              "id": "app/info",
+              "path": "/b4ll-docs/docs/app/info",
               "sidebar": "someSidebar"
             },
             {
-              "id": "doc3",
-              "path": "/b4ll-docs/docs/doc3",
+              "id": "architecture/app",
+              "path": "/b4ll-docs/docs/app",
               "sidebar": "someSidebar"
             },
             {
-              "id": "mdx",
-              "path": "/b4ll-docs/docs/mdx",
+              "id": "architecture/engine",
+              "path": "/b4ll-docs/docs/architecture/engine",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "architecture/landing",
+              "path": "/b4ll-docs/docs/landing"
+            },
+            {
+              "id": "architecture/overview",
+              "path": "/b4ll-docs/docs/architecture/overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "architecture/suppliers",
+              "path": "/b4ll-docs/docs/suppliers",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "contributors-guide/contributing",
+              "path": "/b4ll-docs/docs/contributors-guide/contributing"
+            },
+            {
+              "id": "contributors-guide/reportingbugs",
+              "path": "/b4ll-docs/docs/contributors-guide/reportingbugs",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "docguide",
+              "path": "/b4ll-docs/docs/docguide",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "face/intro",
+              "path": "/b4ll-docs/docs/face/intro"
+            },
+            {
+              "id": "fingerprint/intro",
+              "path": "/b4ll-docs/docs/fingerprint/intro"
+            },
+            {
+              "id": "installation/introduction",
+              "path": "/b4ll-docs/docs/installation/introduction"
+            },
+            {
+              "id": "itl",
+              "path": "/b4ll-docs/docs/itl"
+            },
+            {
+              "id": "manual/quickguide",
+              "path": "/b4ll-docs/docs/manual/quickguide",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "nextsteps",
+              "path": "/b4ll-docs/docs/nextsteps"
+            },
+            {
+              "id": "voice/alerts",
+              "path": "/b4ll-docs/docs/voice/alerts",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "voice/callcentre",
+              "path": "/b4ll-docs/docs/voice/callcentre",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "voice/flow",
+              "path": "/b4ll-docs/docs/voice/flow",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "voice/intro",
+              "path": "/b4ll-docs/docs/voice/intro",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "voice/terms",
+              "path": "/b4ll-docs/docs/voice/terms"
+            },
+            {
+              "id": "voice/usecases",
+              "path": "/b4ll-docs/docs/voice/usecases",
               "sidebar": "someSidebar"
             }
           ]

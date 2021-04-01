@@ -1,106 +1,50 @@
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const path = require('path');
 module.exports = {
-  title: "b4all-docs",
-  tagline: "",
-  url: "https://gsmainclusivetechlab.github.io",
-  baseUrl: "/b4ll-docs/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "gsmainclusivetechlab", // Usually your GitHub org/user name.
-  projectName: "b4ll-docs", // Usually your repo name.
-  themeConfig: {
-    navbar: {
-      title: "My Site",
-      logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
-      },
-      items: [
-        {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
+    title: 'Biometrics 4 All',
+    tagline: '',
+    url: "https://gsmainclusivetechlab.github.io",
+    baseUrl: "/b4ll-docs/",
+    onBrokenLinks: 'throw',
+    favicon: 'img/favicon.ico',
+    organizationName: 'gsmainclusivetechlab', // Usually your GitHub org/user name.
+    projectName: 'b4ll-docs', // Usually your repo name.
+    themeConfig: {
+        prism: {
+            additionalLanguages: ['properties', 'ini'],
         },
-        { to: "blog", label: "Blog", position: "left" },
-        {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
+        navbar: {
+            //title: 'B4ALL - Biometrics For All - Documentation',
+            
+            items: [
+                {
+                  href: 'https://biometrics.gsmainclusivetechlab.io/',
+                  label: 'B4LL - Biometrics 4 All',
+                  position: 'left', // or 'right'
+                },
+            ]
         },
-      ],
+        footer: {
+            style: 'dark',
+
+            copyright: `Copyright © 2020 GSMA. All rights reserved.`,
+        },
     },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
+    presets: [
+        [
+            '@docusaurus/preset-classic',
             {
-              label: "Style Guide",
-              to: "docs/",
+                docs: {
+                    sidebarPath: require.resolve('./src/frontend/sidebars.js'),
+                    routeBasePath: '/docs',
+                    // editUrl:
+                    //     'https://github.com/gsmainclusivetechlab/bilt-voice/tree/docs',
+                },
+                theme: {
+                    customCss: require.resolve('./src/frontend/custom.css'),
+                },
             },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
-  },
-  presets: [
-    [
-      "@docusaurus/preset-classic",
-      {
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-      },
+        ],
     ],
-  ],
+    plugins: [path.resolve(__dirname, 'src/frontend/webpack.js')],
 };

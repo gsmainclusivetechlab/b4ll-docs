@@ -8,8 +8,8 @@
       2,
       3,
       5,
-      13,
-      24,
+      12,
+      23,
       32,
       38,
       40,
@@ -23,7 +23,7 @@
       1,
       3,
       5,
-      24,
+      23,
       32,
       38,
       40,
@@ -36,7 +36,7 @@
       0,
       1,
       2,
-      24,
+      23,
       32,
       40,
       3
@@ -53,8 +53,8 @@
       3,
       4,
       5,
-      13,
-      24,
+      12,
+      23,
       32,
       37,
       38,
@@ -85,61 +85,61 @@
     "@site/docs/architecture/overview.md": [
       9
     ],
-    "/Users/eudis/Dev/GSMA/b4ll/b4ll-docs/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json": [
+    "@site/docs/voice/usecases.md": [
       10
     ],
-    "@site/docs/voice/usecases.md": [
-      11
-    ],
     "@site/docs/contributors-guide/reportingbugs.md": [
-      12
+      11
     ],
     "@theme/DocItem": [
       0,
       1,
-      13
+      12
     ],
     "@site/docs/itl.mdx": [
-      14
+      13
     ],
     "@site/blog/2019-05-30-welcome.md": [
-      15
+      14
     ],
     "~blog/default/b-4-ll-docs-blog-tags-docusaurus-053.json": [
-      16
+      15
     ],
     "@site/blog/2019-05-29-hello-world.md?truncated=true": [
-      17
+      16
     ],
     "@site/docs/about.mdx": [
-      18
+      17
     ],
     "@site/src/pages/markdown-page.md": [
-      19
+      18
     ],
     "@site/docs/voice/terms.md": [
-      20
+      19
     ],
     "@site/docs/nextsteps.md": [
-      21
+      20
     ],
     "@site/docs/face/intro.md": [
-      22
+      21
     ],
     "@site/docs/docguide.mdx": [
-      23
+      22
     ],
     "@theme/BlogTagsPostsPage": [
       0,
       1,
       2,
       3,
-      24
+      23
     ],
     "@site/docs/app/info.md": [
-      25
+      24
     ],
     "@site/blog/2019-05-28-hola.md?truncated=true": [
+      25
+    ],
+    "/home/fingent/Desktop/WorkSpace/B4 client/b4ll-docs/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json": [
       26
     ],
     "~docs/default/version-current-metadata-prop-751.json": [
@@ -258,16 +258,16 @@
     "0": {
       "css": [
         {
-          "file": "assets/css/styles.13a0c500.css",
-          "hash": "15cdb438552d5792a7eb",
-          "publicPath": "/b4ll-docs/assets/css/styles.13a0c500.css"
+          "file": "assets/css/styles.9f4a505a.css",
+          "hash": "e948348fb6fdf9488bd7",
+          "publicPath": "/b4ll-docs/assets/css/styles.9f4a505a.css"
         }
       ],
       "js": [
         {
-          "file": "assets/js/styles.340f80f9.js",
-          "hash": "15cdb438552d5792a7eb",
-          "publicPath": "/b4ll-docs/assets/js/styles.340f80f9.js"
+          "file": "assets/js/styles.0c486176.js",
+          "hash": "e948348fb6fdf9488bd7",
+          "publicPath": "/b4ll-docs/assets/js/styles.0c486176.js"
         }
       ]
     },
@@ -283,18 +283,18 @@
     "2": {
       "js": [
         {
-          "file": "assets/js/2.93e54768.js",
-          "hash": "5496460b36cb7565a045",
-          "publicPath": "/b4ll-docs/assets/js/2.93e54768.js"
+          "file": "assets/js/2.080e2146.js",
+          "hash": "e10dca2a42dc552ce1f5",
+          "publicPath": "/b4ll-docs/assets/js/2.080e2146.js"
         }
       ]
     },
     "3": {
       "js": [
         {
-          "file": "assets/js/3.7f28c3b7.js",
-          "hash": "fdaab2cdc1e9024460e8",
-          "publicPath": "/b4ll-docs/assets/js/3.7f28c3b7.js"
+          "file": "assets/js/3.992785f6.js",
+          "hash": "c403725a45ab47c007d2",
+          "publicPath": "/b4ll-docs/assets/js/3.992785f6.js"
         }
       ]
     },
@@ -328,180 +328,180 @@
     "7": {
       "js": [
         {
-          "file": "assets/js/05e310de.87792317.js",
-          "hash": "dc2c1679151bd588060d",
-          "publicPath": "/b4ll-docs/assets/js/05e310de.87792317.js"
+          "file": "assets/js/05e310de.bd8f9157.js",
+          "hash": "e7704fe4ac47bff4bebd",
+          "publicPath": "/b4ll-docs/assets/js/05e310de.bd8f9157.js"
         }
       ]
     },
     "8": {
       "js": [
         {
-          "file": "assets/js/076f361f.4f3080b3.js",
-          "hash": "165570e9fe61deb6911f",
-          "publicPath": "/b4ll-docs/assets/js/076f361f.4f3080b3.js"
+          "file": "assets/js/076f361f.a2cd8d17.js",
+          "hash": "31b865cdf51e9de62bd4",
+          "publicPath": "/b4ll-docs/assets/js/076f361f.a2cd8d17.js"
         }
       ]
     },
     "9": {
       "js": [
         {
-          "file": "assets/js/0b1ac180.793869cc.js",
-          "hash": "d19215f8b0643c4a43ce",
-          "publicPath": "/b4ll-docs/assets/js/0b1ac180.793869cc.js"
+          "file": "assets/js/0b1ac180.a00dfd74.js",
+          "hash": "b0d6888696d83dcb222f",
+          "publicPath": "/b4ll-docs/assets/js/0b1ac180.a00dfd74.js"
         }
       ]
     },
     "10": {
       "js": [
         {
-          "file": "assets/js/0e210990.4341ea90.js",
-          "hash": "cc528f812f2df0b092cd",
-          "publicPath": "/b4ll-docs/assets/js/0e210990.4341ea90.js"
+          "file": "assets/js/13d21ae7.4b71e56f.js",
+          "hash": "3970a6ab4fe9ed728ba6",
+          "publicPath": "/b4ll-docs/assets/js/13d21ae7.4b71e56f.js"
         }
       ]
     },
     "11": {
       "js": [
         {
-          "file": "assets/js/13d21ae7.dcdc8873.js",
-          "hash": "5316c4473d111993e903",
-          "publicPath": "/b4ll-docs/assets/js/13d21ae7.dcdc8873.js"
+          "file": "assets/js/13dca8fc.cea30bf9.js",
+          "hash": "4298430b001d8f3dfd68",
+          "publicPath": "/b4ll-docs/assets/js/13dca8fc.cea30bf9.js"
         }
       ]
     },
     "12": {
       "js": [
         {
-          "file": "assets/js/13dca8fc.57fd0610.js",
-          "hash": "98f748c207260df501fe",
-          "publicPath": "/b4ll-docs/assets/js/13dca8fc.57fd0610.js"
+          "file": "assets/js/17896441.9e255c33.js",
+          "hash": "f5ff61363b6bf9c886e6",
+          "publicPath": "/b4ll-docs/assets/js/17896441.9e255c33.js"
         }
       ]
     },
     "13": {
       "js": [
         {
-          "file": "assets/js/17896441.55324ac0.js",
-          "hash": "8cd969f6c0379c10a71f",
-          "publicPath": "/b4ll-docs/assets/js/17896441.55324ac0.js"
+          "file": "assets/js/24129f67.2e2d98f9.js",
+          "hash": "d9aa85be1bd3c2ff0572",
+          "publicPath": "/b4ll-docs/assets/js/24129f67.2e2d98f9.js"
         }
       ]
     },
     "14": {
       "js": [
         {
-          "file": "assets/js/24129f67.d0301d38.js",
-          "hash": "3e61dcb477a23882f113",
-          "publicPath": "/b4ll-docs/assets/js/24129f67.d0301d38.js"
+          "file": "assets/js/2868cdab.39188433.js",
+          "hash": "e898f42b650b7ece73e5",
+          "publicPath": "/b4ll-docs/assets/js/2868cdab.39188433.js"
         }
       ]
     },
     "15": {
       "js": [
         {
-          "file": "assets/js/2868cdab.0b3d2457.js",
-          "hash": "0fe2f65bc4026718c6e9",
-          "publicPath": "/b4ll-docs/assets/js/2868cdab.0b3d2457.js"
+          "file": "assets/js/34b595ee.e6f9fd51.js",
+          "hash": "85a95bcb4fc0812ef885",
+          "publicPath": "/b4ll-docs/assets/js/34b595ee.e6f9fd51.js"
         }
       ]
     },
     "16": {
       "js": [
         {
-          "file": "assets/js/34b595ee.6c294864.js",
-          "hash": "a02348ea9f4c634b4a80",
-          "publicPath": "/b4ll-docs/assets/js/34b595ee.6c294864.js"
+          "file": "assets/js/3570154c.6a15e04e.js",
+          "hash": "aa869d440e8453932c47",
+          "publicPath": "/b4ll-docs/assets/js/3570154c.6a15e04e.js"
         }
       ]
     },
     "17": {
       "js": [
         {
-          "file": "assets/js/3570154c.88a2f8b7.js",
-          "hash": "b9cd43f6805b984b8473",
-          "publicPath": "/b4ll-docs/assets/js/3570154c.88a2f8b7.js"
+          "file": "assets/js/36041992.aad78906.js",
+          "hash": "3857446ca05d968856dd",
+          "publicPath": "/b4ll-docs/assets/js/36041992.aad78906.js"
         }
       ]
     },
     "18": {
       "js": [
         {
-          "file": "assets/js/36041992.4398de70.js",
-          "hash": "f28fb262087cc9becc14",
-          "publicPath": "/b4ll-docs/assets/js/36041992.4398de70.js"
+          "file": "assets/js/393be207.e8ecc373.js",
+          "hash": "88fa9c01fd855b8ef301",
+          "publicPath": "/b4ll-docs/assets/js/393be207.e8ecc373.js"
         }
       ]
     },
     "19": {
       "js": [
         {
-          "file": "assets/js/393be207.aa9b8946.js",
-          "hash": "10c23ca563020989366b",
-          "publicPath": "/b4ll-docs/assets/js/393be207.aa9b8946.js"
+          "file": "assets/js/43d3269b.2fbf0948.js",
+          "hash": "4dde17c26936bfec6a04",
+          "publicPath": "/b4ll-docs/assets/js/43d3269b.2fbf0948.js"
         }
       ]
     },
     "20": {
       "js": [
         {
-          "file": "assets/js/43d3269b.c9f66eb0.js",
-          "hash": "b624714e283dbfd21af0",
-          "publicPath": "/b4ll-docs/assets/js/43d3269b.c9f66eb0.js"
+          "file": "assets/js/48acd4fd.45436eaa.js",
+          "hash": "32c8a1ec0efc1483b64a",
+          "publicPath": "/b4ll-docs/assets/js/48acd4fd.45436eaa.js"
         }
       ]
     },
     "21": {
       "js": [
         {
-          "file": "assets/js/48acd4fd.ce282ed3.js",
-          "hash": "46af0c4e480e72fd28e2",
-          "publicPath": "/b4ll-docs/assets/js/48acd4fd.ce282ed3.js"
+          "file": "assets/js/4aec64f7.e29ad020.js",
+          "hash": "f9a7dcefe68601ba8556",
+          "publicPath": "/b4ll-docs/assets/js/4aec64f7.e29ad020.js"
         }
       ]
     },
     "22": {
       "js": [
         {
-          "file": "assets/js/4aec64f7.51b56018.js",
-          "hash": "edcab40246e754bef5d4",
-          "publicPath": "/b4ll-docs/assets/js/4aec64f7.51b56018.js"
+          "file": "assets/js/65d8f8a9.07e8c005.js",
+          "hash": "2b507fa450a1d8cb2b9a",
+          "publicPath": "/b4ll-docs/assets/js/65d8f8a9.07e8c005.js"
         }
       ]
     },
     "23": {
       "js": [
         {
-          "file": "assets/js/65d8f8a9.6646e670.js",
-          "hash": "34ba342c6020b1970314",
-          "publicPath": "/b4ll-docs/assets/js/65d8f8a9.6646e670.js"
+          "file": "assets/js/6875c492.0945bce9.js",
+          "hash": "4b051a75304d059f205e",
+          "publicPath": "/b4ll-docs/assets/js/6875c492.0945bce9.js"
         }
       ]
     },
     "24": {
       "js": [
         {
-          "file": "assets/js/6875c492.ff0c43ae.js",
-          "hash": "a7cb5a7153e335463381",
-          "publicPath": "/b4ll-docs/assets/js/6875c492.ff0c43ae.js"
+          "file": "assets/js/782eedfc.d0673297.js",
+          "hash": "ac107c1ecc80b82c3f0b",
+          "publicPath": "/b4ll-docs/assets/js/782eedfc.d0673297.js"
         }
       ]
     },
     "25": {
       "js": [
         {
-          "file": "assets/js/782eedfc.0a0e9a52.js",
-          "hash": "de23dd4dfd7102df4d63",
-          "publicPath": "/b4ll-docs/assets/js/782eedfc.0a0e9a52.js"
+          "file": "assets/js/8e9f0a8a.a02c7bd0.js",
+          "hash": "6b11ee924c624b25ec1c",
+          "publicPath": "/b4ll-docs/assets/js/8e9f0a8a.a02c7bd0.js"
         }
       ]
     },
     "26": {
       "js": [
         {
-          "file": "assets/js/8e9f0a8a.486ba56c.js",
-          "hash": "f434784904cfbc56ef30",
-          "publicPath": "/b4ll-docs/assets/js/8e9f0a8a.486ba56c.js"
+          "file": "assets/js/91bd73fd.9e5bfc8c.js",
+          "hash": "eaf5d3945c558eca1262",
+          "publicPath": "/b4ll-docs/assets/js/91bd73fd.9e5bfc8c.js"
         }
       ]
     },
@@ -517,9 +517,9 @@
     "28": {
       "js": [
         {
-          "file": "assets/js/9ff59efb.a0c7f92e.js",
-          "hash": "d9054bbeb4037acb7d30",
-          "publicPath": "/b4ll-docs/assets/js/9ff59efb.a0c7f92e.js"
+          "file": "assets/js/9ff59efb.4f95f713.js",
+          "hash": "b13ed99f92c90917785b",
+          "publicPath": "/b4ll-docs/assets/js/9ff59efb.4f95f713.js"
         }
       ]
     },
@@ -535,18 +535,18 @@
     "30": {
       "js": [
         {
-          "file": "assets/js/a34c7f30.a9ae087a.js",
-          "hash": "6bb0528244f497d538a5",
-          "publicPath": "/b4ll-docs/assets/js/a34c7f30.a9ae087a.js"
+          "file": "assets/js/a34c7f30.06609666.js",
+          "hash": "2a2746f06f9ad516b460",
+          "publicPath": "/b4ll-docs/assets/js/a34c7f30.06609666.js"
         }
       ]
     },
     "31": {
       "js": [
         {
-          "file": "assets/js/a3985357.879033a5.js",
-          "hash": "2727450c7070acc90adf",
-          "publicPath": "/b4ll-docs/assets/js/a3985357.879033a5.js"
+          "file": "assets/js/a3985357.544ee407.js",
+          "hash": "99788c77e4c27010b5ff",
+          "publicPath": "/b4ll-docs/assets/js/a3985357.544ee407.js"
         }
       ]
     },
@@ -562,18 +562,18 @@
     "33": {
       "js": [
         {
-          "file": "assets/js/ab37a6a6.cc616e96.js",
-          "hash": "d1e017b6cd782f664981",
-          "publicPath": "/b4ll-docs/assets/js/ab37a6a6.cc616e96.js"
+          "file": "assets/js/ab37a6a6.d043ca9c.js",
+          "hash": "0b1ce03a44d2cb9cc39e",
+          "publicPath": "/b4ll-docs/assets/js/ab37a6a6.d043ca9c.js"
         }
       ]
     },
     "34": {
       "js": [
         {
-          "file": "assets/js/af172acd.c8b80ece.js",
-          "hash": "b2f0a4de069f99b626e5",
-          "publicPath": "/b4ll-docs/assets/js/af172acd.c8b80ece.js"
+          "file": "assets/js/af172acd.f7c20917.js",
+          "hash": "929703a7c39600ef80c3",
+          "publicPath": "/b4ll-docs/assets/js/af172acd.f7c20917.js"
         }
       ]
     },
@@ -589,54 +589,54 @@
     "36": {
       "js": [
         {
-          "file": "assets/js/bdd709f1.38b31e05.js",
-          "hash": "625f3720525aa333dce3",
-          "publicPath": "/b4ll-docs/assets/js/bdd709f1.38b31e05.js"
+          "file": "assets/js/bdd709f1.6bbadea4.js",
+          "hash": "e53d6621b046c4837faf",
+          "publicPath": "/b4ll-docs/assets/js/bdd709f1.6bbadea4.js"
         }
       ]
     },
     "37": {
       "js": [
         {
-          "file": "assets/js/c4b1a5c6.a60bfd81.js",
-          "hash": "5aa250354fd35af4611b",
-          "publicPath": "/b4ll-docs/assets/js/c4b1a5c6.a60bfd81.js"
+          "file": "assets/js/c4b1a5c6.465de275.js",
+          "hash": "9dba94a35750b0d527eb",
+          "publicPath": "/b4ll-docs/assets/js/c4b1a5c6.465de275.js"
         }
       ]
     },
     "38": {
       "js": [
         {
-          "file": "assets/js/c4f5d8e4.c34fd942.js",
-          "hash": "ae4a70aeeeecc2a51c02",
-          "publicPath": "/b4ll-docs/assets/js/c4f5d8e4.c34fd942.js"
+          "file": "assets/js/c4f5d8e4.140e6bbb.js",
+          "hash": "cdb00120678bfbb65593",
+          "publicPath": "/b4ll-docs/assets/js/c4f5d8e4.140e6bbb.js"
         }
       ]
     },
     "39": {
       "js": [
         {
-          "file": "assets/js/c8df5506.0346fd49.js",
-          "hash": "1fc0fa1b4a082e2f3f56",
-          "publicPath": "/b4ll-docs/assets/js/c8df5506.0346fd49.js"
+          "file": "assets/js/c8df5506.7bd3376c.js",
+          "hash": "d90b3bc2d27473fa4936",
+          "publicPath": "/b4ll-docs/assets/js/c8df5506.7bd3376c.js"
         }
       ]
     },
     "40": {
       "js": [
         {
-          "file": "assets/js/ccc49370.a575d07c.js",
-          "hash": "57f0250ddc1f6e71e553",
-          "publicPath": "/b4ll-docs/assets/js/ccc49370.a575d07c.js"
+          "file": "assets/js/ccc49370.d891246b.js",
+          "hash": "c98d08ed4340897497e5",
+          "publicPath": "/b4ll-docs/assets/js/ccc49370.d891246b.js"
         }
       ]
     },
     "41": {
       "js": [
         {
-          "file": "assets/js/d21ce3a1.c8b544f8.js",
-          "hash": "3865d325257d52c90060",
-          "publicPath": "/b4ll-docs/assets/js/d21ce3a1.c8b544f8.js"
+          "file": "assets/js/d21ce3a1.6269d459.js",
+          "hash": "7903ef177aa48b784935",
+          "publicPath": "/b4ll-docs/assets/js/d21ce3a1.6269d459.js"
         }
       ]
     },
@@ -652,27 +652,27 @@
     "43": {
       "js": [
         {
-          "file": "assets/js/d610846f.c31c1169.js",
-          "hash": "24fc8caed49b404f34e9",
-          "publicPath": "/b4ll-docs/assets/js/d610846f.c31c1169.js"
+          "file": "assets/js/d610846f.a2ff0d28.js",
+          "hash": "c9a8e7b779cbf2bd3562",
+          "publicPath": "/b4ll-docs/assets/js/d610846f.a2ff0d28.js"
         }
       ]
     },
     "44": {
       "js": [
         {
-          "file": "assets/js/e04aabf8.e245926a.js",
-          "hash": "c576840de17b48aa87d2",
-          "publicPath": "/b4ll-docs/assets/js/e04aabf8.e245926a.js"
+          "file": "assets/js/e04aabf8.91b2a56c.js",
+          "hash": "a804421f58bea331e2e8",
+          "publicPath": "/b4ll-docs/assets/js/e04aabf8.91b2a56c.js"
         }
       ]
     },
     "45": {
       "js": [
         {
-          "file": "assets/js/e17fea6e.4a6b0a6e.js",
-          "hash": "b66e6cec7ea8b73044ac",
-          "publicPath": "/b4ll-docs/assets/js/e17fea6e.4a6b0a6e.js"
+          "file": "assets/js/e17fea6e.3ee974d6.js",
+          "hash": "019cc03fa1efa7019993",
+          "publicPath": "/b4ll-docs/assets/js/e17fea6e.3ee974d6.js"
         }
       ]
     },
@@ -688,45 +688,45 @@
     "47": {
       "js": [
         {
-          "file": "assets/js/faa8dc93.c7c3225a.js",
-          "hash": "166123cfe61004dba5d8",
-          "publicPath": "/b4ll-docs/assets/js/faa8dc93.c7c3225a.js"
+          "file": "assets/js/faa8dc93.da358c17.js",
+          "hash": "5d9c8c0b3b2bcfb2f7aa",
+          "publicPath": "/b4ll-docs/assets/js/faa8dc93.da358c17.js"
         }
       ]
     },
     "48": {
       "js": [
         {
-          "file": "assets/js/main.56ebc964.js",
-          "hash": "decf6421aa17dfefcf61",
-          "publicPath": "/b4ll-docs/assets/js/main.56ebc964.js"
+          "file": "assets/js/main.c52ef30b.js",
+          "hash": "60e5e98affabe07bb949",
+          "publicPath": "/b4ll-docs/assets/js/main.c52ef30b.js"
         }
       ]
     },
     "49": {
       "js": [
         {
-          "file": "assets/js/runtime~main.4f73bb8b.js",
-          "hash": "66a3adf4d1190f022685",
-          "publicPath": "/b4ll-docs/assets/js/runtime~main.4f73bb8b.js"
+          "file": "assets/js/runtime~main.82e800f5.js",
+          "hash": "d3967880ecd162ac2f5f",
+          "publicPath": "/b4ll-docs/assets/js/runtime~main.82e800f5.js"
         }
       ]
     },
     "51": {
       "js": [
         {
-          "file": "assets/js/51.a8b11170.js",
-          "hash": "a5f03ff75fe5ed26209a",
-          "publicPath": "/b4ll-docs/assets/js/51.a8b11170.js"
+          "file": "assets/js/51.e01f366b.js",
+          "hash": "8a8dcb7ec1e331ca0cea",
+          "publicPath": "/b4ll-docs/assets/js/51.e01f366b.js"
         }
       ]
     },
     "52": {
       "js": [
         {
-          "file": "assets/js/50.900b2a87.js",
-          "hash": "7c512060f1b3eef1b1e5",
-          "publicPath": "/b4ll-docs/assets/js/50.900b2a87.js"
+          "file": "assets/js/50.99effdb3.js",
+          "hash": "d2248e9e2f8b7b7181a3",
+          "publicPath": "/b4ll-docs/assets/js/50.99effdb3.js"
         },
         {
           "file": "assets/js/52.bc01b89f.js",

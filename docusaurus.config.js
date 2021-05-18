@@ -36,7 +36,7 @@ module.exports = {
             {
                 docs: {
                     sidebarPath: require.resolve('./src/frontend/sidebars.js'),
-                    routeBasePath: '/docs',
+                    routeBasePath: '/',
                     // editUrl:
                     //     'https://github.com/gsmainclusivetechlab/bilt-voice/tree/docs',
                 },

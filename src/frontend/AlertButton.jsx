@@ -16,30 +16,55 @@ const useInput = (init) => {
     return { value, onChange, onFocus };
 };
 
-const useAlertTrigger = (phone) => {
+const useAlertTrigger = (phone, language) => {
     const [state, setState] = React.useState({ state: 'INIT' });
     const trigger = React.useCallback(async () => {
         setState({ state: 'PENDING' });
         try {
-            await axios.get(
-                `${
-                    process.env.API_HOST
-                }/en-GB/callback?Caller=${encodeURIComponent(phone)}`
-            , { crossdomain: true });
-            setState({ state: 'SUCCESS' });
+            switch (language) {
+                case 'en-GB':
+                    await axios.get(
+                        `${
+                            process.env.API_HOST_GB
+                        }/en-GB/callback?Caller=${encodeURIComponent(phone)}`
+                    , { crossdomain: true });
+                    setState({ state: 'SUCCESS' });  
+                case 'ur-PK':
+                    await axios.get(
+                        `${
+                            process.env.API_HOST_PK
+                        }/ur-PK/callback?Caller=${encodeURIComponent(phone)}`
+                    , { crossdomain: true });
+                    setState({ state: 'SUCCESS' });
+            }
         } catch (e) {
             setState({
                 state: 'ERROR',
                 error: e.response.data.error || 'An unexpected error occurred',
             });
         }
-    }, [phone, setState]);
+    }, [phone, language, setState]);
     return { state, trigger };
 };
 
 export default function AlertButton() {
     const phoneNumber = useInput('+44...');
-    const { trigger, state } = useAlertTrigger(phoneNumber.value);
+    const [language, setLanguage] = React.useState('')
+    const [langChosen, setLangChosen] = React.useState(false)
+    const { trigger, state } = useAlertTrigger(phoneNumber.value, language);
+
+    const setEnglish = () => {
+        setLanguage('en-GB')
+    }
+    const setUrdu = () => {
+        setLanguage('ur-PK')
+    }
+
+    const handleLangChosen = () => {
+        if (!langChosen){
+            setLangChosen(!langChosen)
+        }
+    }
 
     switch (state.state) {
         case 'PENDING':
@@ -51,13 +76,23 @@ export default function AlertButton() {
     let message = state.error || null;
     return (
         <div>
+            <br />
+            <div>
+                <label className={style.button}>
+                <input onClick={setEnglish, setLangChosen} type="radio" value="english" name="language" />English
+                </label>
+                <label className={style.button}>
+                <input onClick={setUrdu, setLangChosen} type="radio" value="urdu" name="language" />Urdu
+                </label>
+            </div>
+            <br />
             <input
                 className={style.input}
                 type="text"
                 placeholder="+44"
                 {...phoneNumber}
             />
-            <button className={style.button} onClick={trigger}>
+            <button disabled={!langChosen} className={style.button} onClick={trigger}>
                 Call me!
             </button>
             <br />

@@ -29,6 +29,7 @@ const useAlertTrigger = (phone, language) => {
                         }/en-GB/callback?Caller=${encodeURIComponent(phone)}`
                     , { crossdomain: true });
                     setState({ state: 'SUCCESS' });  
+                    break;
                 case 'ur-PK':
                     await axios.get(
                         `${
@@ -36,6 +37,7 @@ const useAlertTrigger = (phone, language) => {
                         }/ur-PK/callback?Caller=${encodeURIComponent(phone)}`
                     , { crossdomain: true });
                     setState({ state: 'SUCCESS' });
+                    break;
             }
         } catch (e) {
             setState({
@@ -78,11 +80,11 @@ export default function AlertButton() {
         <div>
             <br />
             <div>
-                <label className={style.button}>
-                <input onClick={setEnglish, setLangChosen} type="radio" value="english" name="language" />English
+                <label onClick={()=>{ setEnglish(); handleLangChosen() }} className={style.button}>
+                <input type="radio" value="english" name="language" />English
                 </label>
-                <label className={style.button}>
-                <input onClick={setUrdu, setLangChosen} type="radio" value="urdu" name="language" />Urdu
+                <label onClick={()=>{ setUrdu(); handleLangChosen() }} className={style.button}>
+                <input type="radio" value="urdu" name="language" />Urdu
                 </label>
             </div>
             <br />

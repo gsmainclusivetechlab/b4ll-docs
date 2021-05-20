@@ -4,7 +4,7 @@ module.exports = {
     title: 'Biometrics 4 All',
     tagline: '',
     url: "https://gsmainclusivetechlab.github.io",
-    baseUrl: "/b4ll-docs/",
+    baseUrl: "/",
     onBrokenLinks: 'throw',
     favicon: 'img/favicon.ico',
     organizationName: 'gsmainclusivetechlab', // Usually your GitHub org/user name.
@@ -14,21 +14,25 @@ module.exports = {
             additionalLanguages: ['properties', 'ini'],
         },
         navbar: {
-            //title: 'B4ALL - Biometrics For All - Documentation',
-            
-            items: [
-                {
-                  href: 'https://biometrics.gsmainclusivetechlab.io/',
-                  label: 'B4LL - Biometrics 4 All',
-                  position: 'left', // or 'right'
-                },
-            ]
+            title: 'B4ALL - Biometrics For All - Documentation',
         },
         footer: {
             style: 'dark',
 
             copyright: `Copyright © 2020 GSMA. All rights reserved.`,
         },
+        
+        // navbar: {
+        //     //title: 'B4ALL - Biometrics For All - Documentation',
+            
+        //     items: [
+        //         {
+        //           href: 'https://biometrics.gsmainclusivetechlab.io/',
+        //           label: 'B4LL - Biometrics 4 All',
+        //           position: 'left', // or 'right'
+        //         },
+        //     ]
+        // },
     },
     presets: [
         [
@@ -36,7 +40,7 @@ module.exports = {
             {
                 docs: {
                     sidebarPath: require.resolve('./src/frontend/sidebars.js'),
-                    routeBasePath: '/docs',
+                    routeBasePath: '/',
                     // editUrl:
                     //     'https://github.com/gsmainclusivetechlab/bilt-voice/tree/docs',
                 },

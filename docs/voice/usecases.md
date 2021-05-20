@@ -3,6 +3,9 @@ title: Use Cases
 sidebar_label: Use Cases
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 This section describes the use cases used for the voice biometrics
 showcase.These use cases aim to address different possibilities that can be
 approached with the use of voice verification. However, depending on the
@@ -75,9 +78,27 @@ transfer.
 
 ### Account Balance
 
+<Tabs
+  defaultValue="english"
+  values={[
+    {label: 'EN / FR', value: 'english'},
+    {label: 'UR', value: 'urdu'},
+  ]}>
+  <TabItem value="english">
+
 Accessing this option, the user will listen the current mobile money account
-balance. For this showcase the balance will be \$100 and will be renewed
+balance. For this showcase the balance will be $100 and will be renewed
 automatically when it reaches zero, after using it for payments and transfers.
+
+  </TabItem>
+  <TabItem value="urdu">
+
+Accessing this option, the user will listen the current mobile money account
+balance. For this showcase the balance will be $30 and will be renewed
+automatically when it reaches zero, after using it for payments and transfers.
+
+  </TabItem>
+</Tabs>
 
 ### Pay a Bill
 
@@ -88,15 +109,39 @@ technologies are not available. Using voice for payment authentication would
 speed the payment process and improve the safety for users. To use this
 simulation the user has three different flows to test.
 
+<Tabs
+  defaultValue="english"
+  values={[
+    {label: 'EN / FR', value: 'english'},
+    {label: 'UR', value: 'urdu'},
+  ]}>
+  <TabItem value="english">
+
 **Flow 01:** Invalid Payment Number: Any number that is not 5 digits will be
 considered an invalid payment number.
 
 **Flow 02:** Payment Successful: Any 5 digit payment number **except 54321**
-will let the user pay a bill of \$50.
+will let the user pay a bill of $50.
 
 **Flow 03:** Payment Declined: The payment number 54321 will lead the user to
-try a payment of $150. Since the balance is $100 the payment will be declined
+try a payment of $150. Since the maximum balance is $100 the payment will be declined
 due to insufficient funds.
+
+  </TabItem>
+  <TabItem value="urdu">
+
+**Flow 01:** Invalid Payment Number: Any number that is not 5 digits will be
+considered an invalid payment number.
+
+**Flow 02:** Payment Successful: Any 5 digit payment number **except 54321**
+will let the user pay a bill of $20.
+
+**Flow 03:** Payment Declined: The payment number 54321 will lead the user to
+try a payment of $50. Since the maximum balance is $30 the payment will be declined
+due to insufficient funds.
+
+  </TabItem>
+</Tabs>
 
 ### Make a Transfer
 
@@ -123,7 +168,7 @@ situations like an overdraft, a suspicious transaction, a high value
 transference, etc. If necessary, during the calling the user can use voice
 verification to validate a transaction. Currently this use case is being tested
 using a webpage available here:
-[simulate an alert](https://gsmainclusivetechlab.github.io/bilt-voice/voice-biometric/alerts/)
+[simulate an alert](https://gsmainclusivetechlab.github.io/b4ll-callcentre/voice-biometric/alerts/)
 
 ## Manage Passphrase
 

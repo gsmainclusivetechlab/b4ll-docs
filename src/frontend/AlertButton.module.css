@@ -39,3 +39,13 @@
 .button:disabled {
   color: #999;
 }
+
+label:hover {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+input[type="radio"]:active + label {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}

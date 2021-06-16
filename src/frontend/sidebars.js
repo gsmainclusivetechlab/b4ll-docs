@@ -16,7 +16,12 @@ module.exports = {
             'voice/usecases',
             'voice/alerts',
         ],
-        'Application': ['app/info'],
+        'Application': [
+            'app/info',
+            'app/setup',
+            'app/usecases',
+            'app/settings'
+        ],
         //'Face': ['face/intro'],
         //'Fingerprint': ['fingerprint/intro'],
         'User Manuals': ['manual/quickguide'],

@@ -17,7 +17,6 @@ module.exports = {
             'voice/alerts',
         ],
         'Application': [
-            'app/info',
             'app/setup',
             'app/usecases',
             'app/settings'

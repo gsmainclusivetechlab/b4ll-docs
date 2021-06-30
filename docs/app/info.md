@@ -1,6 +1,6 @@
 ---
 title: B4LL Application
-sidebar_label: Info
+sidebar_label: Introduction
 ---
 
 :::note Coming Soon

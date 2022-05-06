@@ -23,7 +23,10 @@ module.exports = {
         ],
         //'Face': ['face/intro'],
         //'Fingerprint': ['fingerprint/intro'],
-        'User Manuals': ['manual/quickguide'],
+        'User Manuals': [
+            'manual/quickguide',
+            'manual/gettingstarted'
+        ],
         "Contributor's Guide": [
             //'contributors-guide/contributing',
             'contributors-guide/reportingbugs',

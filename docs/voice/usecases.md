@@ -20,6 +20,10 @@ everyday situations.
 |        [Manage Passphrases](#manage-passphrase)         |                       Register diferent passphrases to the user to show the possibilities of multiple passphrases when necessary                       |
 |        [Deactivate Account](#deactivate-account)        |                           Deactivate the user account to approach the possibility of new use cases, such as SIM reactivation                           |
 |                   [Surveys](#surveys)                   |                            Used to receive user's feedback and highlight the possibilities of using surveys in call centres                            |
+| [Reset PIN](#reset-pin)                                 | This use case approaches the need for the user to change their PIN number.                  |
+| [Merchant Payment](#merchant-payment)                   | Allows the user to make a merchant payment, either through a customer-initiated process (SMS,USSD) or via the Agent webpage.  |
+| [Cash In/Out](#cash-in--cash-out)                       | Allows the user to make a Cash In or a Cash Out request, through the Agent webpage.         |
+| [P2P Transfer](#p2p-transfer)                           | Allows the user to make a P2P Transfer, through the Agent webpage.                          |
 
 :::note Use Cases Variations
 
@@ -197,3 +201,100 @@ gets the higher is the possibility the user gives up without giving the
 feedback. This way 2 or 3 questions would be the best choice. This use case can
 be applied as a feedback survey in any of the previous use cases so we could get
 a user opinion about it.
+
+## Reset PIN
+
+This use case approaches the need of the user to change their PIN number. There are two possibilities where it could occur: 
+
+1. The user lost the PIN number and want to reset it. 
+    1. SMS/USSD sent to the system requesting the number change. It will trigger the system to call back the user to validate the user with voice recognition and ask the user to introduce the new 4 digits PIN.
+2. The user knows the pin number and want to change.
+    1. Calling the IVR Call Centre and selecting the option change PIN. The system will validate the user using the previous PIN and allows the user to change the PIN number introducing the new 4 digits PIN.
+
+### Scenario 1 - Reset PIN
+
+Accessing this option, the user will listen the current mobile money account
+balance. For this showcase the balance will be $100 and will be renewed
+automatically when it reaches zero, after using it for payments and transfers.
+
+1. To reset your PIN, you must first send a text message to the call centre using of the numbers listed.
+2. There are 2 options to send the text message:
+    1. Using the SMS term, “**RESETPIN**”
+    2. Using the USSD code, “****42*033**”
+3. You should then receive a call from the call centre, asking you to verify your voice.
+4. After voice verification, you will be asked to enter your new **4-digit** PIN number.
+
+### Scenario 2 - Change PIN
+
+1. To change your PIN, you must call the call centre directly, using of the numbers listed.
+2. Once through to the main menu, after voice verification, you can **press 4** to begin the process of changing your PIN.
+3. You will first be asked to enter your current PIN. Assuming you haven’t already changed your PIN via the Reset PIN option, the default PIN is “**1234**” - otherwise the PIN will be what you previously reset it to.
+4. You can then proceed and enter your new PIN number.
+
+
+## Merchant Payment
+
+This use case approaches the merchant payment in different scenarios:
+
+1. The user initiates the payment through the demo page, typing the customer number, amount and proceeding with the payment with voice verification. 
+2. The user generates a QRCode in the demo page, reads with the mobile camera and receives a call to verify the user using voice.
+3. The User sends an SMS/USSD message containing the merchant number and the payment amount, and requests to proceed with the payment. The user receives a call to verify the user using voice.
+
+
+### Scenario 1 - Agent-Initiated Merchant Payment
+
+1. To begin, navigate to the [agent page](https://biometrics.gsmainclusivetechlab.io/agent), and head over to the “**Use Case Simulator**” section.
+2. Select “**Merchant Pay**”
+3. Enter your phone number, and the amount of the merchant payment (can be any amount under $500)
+4. Press the “Send Request” button. You should shortly receive a call.
+5. After voice verification, you will be asked to confirm or decline the transaction.
+
+### Scenario 2 - Agent-Initiated Merchant Payment (QR Code)
+
+1. To begin, navigate to the [agent page](https://biometrics.gsmainclusivetechlab.io/agent), and head over to the “**Use Case Simulator**” section.
+2. Select “**Merchant Pay (QR Code)**”
+3. Enter your phone number, and the amount of the merchant payment (can be any amount under $500)
+4. Press the “Generate QR Code” button. This will generate a QR code, which you can scan with your phone. Click the URL embedded in the QR Code. You should shortly receive a call.
+5. After voice verification, you will be asked to confirm or decline the transaction.
+
+### Scenario 3 - Customer-Initiated Merchant Payment
+
+1. To initiate a merchant payment, you must first send a text message to the call centre using of the numbers listed.
+2. There are 2 options to send the text message:
+    1. Using the SMS format, “MERCHANTPAY {merchant_code} {payment_amount}”
+        1. e.g. `MERCHANTPAY 12345 10`
+    2. Using the USSD code, “****12*MERCHANTCODE*AMOUNT***”
+        1. e.g. `**12*12345*10`
+3. You should then receive a call from the call centre, asking you to verify your voice.
+4. After voice verification, you will be asked to confirm or decline the transaction.
+
+## Cash In / Cash Out
+
+### Scenario 1 - Agent-Initiated Cash In
+
+1. To begin, navigate to the [agent page](https://biometrics.gsmainclusivetechlab.io/agent), and head over to the “**Use Case Simulator**” section.
+2. Select “**Cash-In**”
+3. Enter your phone number, and the amount you would like to cash in (can be any amount under $500)
+4. Press the “Send Request” button. You should shortly receive a call.
+5. After voice verification, you will be asked to confirm or decline the transaction.
+
+### Scenario 2 - Agent-Initiated Cash Out
+
+1. To begin, navigate to the [agent page](https://biometrics.gsmainclusivetechlab.io/agent), and head over to the “**Use Case Simulator**” section.
+2. Select “**Cash-Out**”
+3. Enter your phone number, and the amount you would like to cash out (can be any amount under $500)
+4. Press the “Send Request” button. You should shortly receive a call.
+5. After voice verification, you will be asked to confirm or decline the transaction.
+
+## P2P Transfer
+
+### Scenario 1 - Agent-Initiated Cash P2P Transfer
+
+1. To begin, navigate to the [agent page](https://biometrics.gsmainclusivetechlab.io/agent), and head over to the “**Use Case Simulator**” section.
+2. Select “**P2P Transfer**”
+3. Enter your phone number, and the amount you would like to transfer (can be any amount under $500)
+4. Select a **Recipient**, from the recipient list.
+![recipient_list](/img/payment-recipient.png)
+5. Press the “Send Request” button. You should shortly receive a call.
+6. After voice verification, you will be asked to confirm or decline the transaction.
+

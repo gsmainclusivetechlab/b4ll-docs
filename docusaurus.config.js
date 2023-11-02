@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     title: 'Biometrics 4 All',
     tagline: '',
-    url: "https://gsmainclusivetechlab.github.io",
+    url: "https://docs.biometrics.gsmainclusivetechlab.io",
     baseUrl: "/",
     onBrokenLinks: 'throw',
     favicon: 'img/favicon.ico',
@@ -14,7 +14,7 @@ module.exports = {
             additionalLanguages: ['properties', 'ini'],
         },
         navbar: {
-            title: 'B4ALL - Biometrics For All - Documentation',
+            title: 'B4LL - Biometrics For All - Documentation',
         },
         footer: {
             style: 'dark',
@@ -23,7 +23,7 @@ module.exports = {
         },
         
         // navbar: {
-        //     //title: 'B4ALL - Biometrics For All - Documentation',
+        //     //title: 'B4LL - Biometrics For All - Documentation',
             
         //     items: [
         //         {

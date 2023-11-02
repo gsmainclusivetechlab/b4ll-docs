@@ -84,8 +84,7 @@ If you exit the application during the registration process, you will receive a 
     <p>3. <b>Position your fingers</b> in the provided slot in the device’s screen. You will have to follow the instructions on the screen and adjust the position of your fingers. The messages for the positioning of the fingers to capture the optimal image might be to:
         i.	Move your fingers closer
         ii.	Move your fingers back
-        iii. Hold your fingers steady.
-    </p>
+        iii. Hold your fingers steady.</p>
     <div style={{textAlign: 'center'}}>
         <img alt="Finger Screen3" src={useBaseUrl('img/app-manual/face3.png')} />
         <img alt="Finger Screen4" src={useBaseUrl('img/app-manual/face4.png')} />
@@ -107,8 +106,7 @@ If you exit the application during the registration process, you will receive a 
     </div>
     <p>3. You will have to position your face in the provided slot on the device’s  screen and <b>retain the position</b> until you receive a message on the screen. Your face will be automatically captured by the application.</p>
     <p>4. The application will validate the captured face and complete the enrollment process.
-        <li>a.	If the captured face is not clear, the application will provide the error message and prompt to capture the face again. The process will continue for three consecutive times, post which the application will navigate you back to the registration screen.</li>
-    </p>
+        <li> a.	If the captured face is not clear, the application will provide the error message and prompt to capture the face again. The process will continue for three consecutive times, post which the application will navigate you back to the registration screen. </li></p>
     <div style={{textAlign: 'center'}}>
         <img alt="Face Screen3" src={useBaseUrl('img/app-manual/face3.png')} />
         <img alt="Face Screen4" src={useBaseUrl('img/app-manual/face4.png')} />
